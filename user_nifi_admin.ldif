@@ -1,0 +1,17 @@
+dn: uid=admin, ou=NiFi, dc=mobigen, dc=com
+objectClass: top
+objectClass: account
+objectClass: posixAccount
+objectClass: shadowAccount
+cn: admin
+uid: admin
+uidNumber: 9999
+gidNumber: 100
+homeDirectory: /home/admin
+loginShell: /bin/bash
+gecos: admin [Admin (at) nGle]
+userPassword: {crypt}x
+shadowLastChange: 17058
+shadowMin: 0
+shadowMax: 99999
+shadowWarning: 7

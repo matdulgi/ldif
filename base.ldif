@@ -1,0 +1,13 @@
+dn: dc=mobigen, dc=com
+dc: mobigen
+objectClass: top
+objectClass: domain
+
+dn: cn=admin, dc=mobigen, dc=com
+objectClass: organizationRole
+cn: admin
+description: LDAP Manager
+
+dn: ou=NiFi, dc=mobigen, dc=com
+objectClass: organizationUnit
+ou: NiFi
